@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/618803b054.js" crossorigin="anonymous"></script>
+    <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="blog.css">
+    <title>BLOG</title>
+</head>
+
+<body>
+<div class="navbar">
+    <div class="navbuttons">
+        <a href="index.html"> <button class="btn-navhome">HOME</button></a>
+    </div>
+    <div class="navbuttons">
+        <a href="index.html#about"> <button class="btn-navaboutme">ABOUT ME</button></a>
+    </div>
+    <div class="navbuttons">
+        <a href="education.html"> <button class="btn-navblog">EDUCATION</button></a>
+    </div>
+        <div class="navbuttons">
+        <a href="gallery.html"> <button class="btn-navgallery">GALLERY</button></a>
+    </div>
+</div>
+<br>
+
+<div class="filterDisp">
+  <div class="btn-container" id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('energy')"> Energy</button>
+    <button class="btn" onclick="filterSelection('tech')"> Technology</button>
+    <button class="btn" onclick="filterSelection('enviro')"> Environment</button>
+    <button class="btn" onclick="filterSelection('coding')"> Coding</button>
+  </div>
+
+  <div class="container">
+    <div class="filterDiv energy" id="parent">
+      <div class="filterDivTitle">
+        <p>Wind Energy in the UK</p>
+      </div>
+      <!-- <br> -->
+      <div class="filterDivDate">
+        <p>02/05/2021</p>
+      </div>
+      <br>
+    </div>
+
+    <div class="filterDiv energy" id="parent">
+      <div class="filterDivTitle">
+        <p>Solar, Wind & Batteries</p>
+      </div>
+      <!-- <br> -->
+      <div class="filterDivDate">
+        <p>02/05/2021</p>
+      </div>
+      <br>
+    </div>
+
+    <div class="filterDiv enviro" id="parent">
+      <div class="filterDivTitle">
+        <p>Rewilding</p>
+      </div>
+      <div class="filterDivDate">
+        <p>02/05/2021</p>
+      </div>
+      <br>
+    </div>
+
+    <div class="filterDiv technology" id="parent">
+      <div class="filterDivTitle">
+        <p>Tesla</p>
+      </div>
+      <div class="filterDivDate">
+        <p>02/05/2021</p>
+      </div>
+      <br>
+    </div>
+
+    <div class="filterDiv coding" id="parent">
+      <div class="filterDivTitle">
+        <p>Making of This Website</p>
+      </div>
+      <div class="filterDivDate">
+        <p>02/05/2021</p>
+      </div>
+    </div>
+<br>
+<p class="big">I will be uploading content in time. The articles above are just dummy articles to test my code and how they work.</p>
+<p class="big">(It's just a coincidence I have title'd them as topics I am interested in- and may write about.)</p>
+
+<script src="blog.js"></script>
+
+
+</body>
+</html>
